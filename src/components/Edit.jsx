@@ -32,7 +32,7 @@ const Edit = () => {
                         <label className="">Title: </label>
                     </div>
                     <div>
-                        <input className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.title} disabled />
+                        <input readonly className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.title} />
                     </div>
                 </div>
                 <div className='flex-col p-2 m-auto w-3/4'>
@@ -40,7 +40,7 @@ const Edit = () => {
                         <label className="m-1 p-1 rounded-md">Description: </label>
                     </div>
                     <div>
-                        <textarea className="m-1 p-1 rounded-md w-3/4" placeholder={initialData.desc} disabled />
+                        <textarea readonly className="m-1 p-1 rounded-md w-3/4" placeholder={initialData.desc} />
                     </div>
                 </div>
                 <div className='flex-col p-2 m-auto w-3/4'>
@@ -48,7 +48,7 @@ const Edit = () => {
                         <label className="m-1 p-1 rounded-md">Team: </label>
                     </div>
                     <div>
-                        <input className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.team} disabled />
+                        <input readonly className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.team} />
                     </div>
                 </div>
                 <div className='flex-col p-2 m-auto w-3/4'>
@@ -56,7 +56,7 @@ const Edit = () => {
                         <label className="m-1 p-1 rounded-md">Assignees: </label>
                     </div>
                     <div>
-                        <input className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.assignee} disabled />
+                        <input className="m-1 p-1 rounded-md w-3/4" type="text" placeholder={initialData.assignee} readonly />
                     </div>
                 </div>
                 <div className='flex-col p-2 m-auto w-3/4'>
