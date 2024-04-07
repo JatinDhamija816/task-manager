@@ -20,7 +20,7 @@ const Filter = () => {
                         <input className="m-1 p-1 rounded-md px-5" type="date" />
                     </div>
                 </div>
-                <button className="bg-blue-500 px-10 rounded-md text-white justify-end"><Link to='/add'>Add New Task</Link></button>
+                <button className="bg-blue-500 px-10 rounded-md text-white justify-end md:my-2 p-1"><Link to='/add'>Add New Task</Link></button>
 
             </div>
             <div className=" flex m-4 p-2 md:flex-col">
